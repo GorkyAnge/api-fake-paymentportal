@@ -13,11 +13,10 @@ app
     .use(exceptionService.errorHandler) // register generic error handler middleware
     .use(exceptionService.jsonErrorHandler) // register json error handler middleware
     .use(router()) // Use the Router on the sub routes
-    .use(KoaStatic('public')) // server statics
+    .use(KoaStatic('public')) // serve statics
     // Bootstrap the server
-    .listen(process.env.PORT || 5100, () =>
-    {
-        console.log('server stared with port 5100');
+    .listen(process.env.PORT || 5100, () => {
+        console.log('server started with port 5100');
 
         console.log();
         console.log();
