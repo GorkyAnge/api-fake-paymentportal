@@ -24,16 +24,8 @@ fake-payment-gateway uses:
 
 1. download the project.
    
-   ```bash
-   git@github.com:ShalithaCell/fake-payment-gateway.git
-   ```
-    or
-    
-    ```bash
-    https://github.com/ShalithaCell/fake-payment-gateway.git
-    ```
    
- 2. Goto inside to '_fake-payment-gateway_' folder and run the command.
+2. Goto inside to '_fake-payment-gateway_' folder and run the command.
   
     ```bash
      npm install
@@ -83,7 +75,7 @@ You can get all api end-points invoking the following link,
     {
         "app_name": "ABC",
         "service": "Electronic Items",
-        "customer_email":"shalithax@gmail.com",
+        "customer_email":"gorkyange@gmail.com",
         "card_type  ": "VISA",
         "card_holder_name": "Example",
         "card_number": "4242424242424242",
@@ -102,7 +94,7 @@ You can get all api end-points invoking the following link,
     {
         "app_name": "ABC",
         "service": "Electronic Items",
-        "customer_email":"shalithax@gmail.com",
+        "customer_email":"gorkyange@gmail.com",
         "phone_number  ": "0771940055",
         "phone_holder_name": "shalitha",
         "amount": "5000.00",
@@ -119,27 +111,7 @@ You can get all api end-points invoking the following link,
     
 ---
 
-## Development
 
----
-
-Want to contribute? Great!
-
- * I'm here for your pull-request.
-
- The best way to contribute is by spreading the word about the library:
- 
- * Blog it
- * Comment it
- * Fork it
- * Star it
- * Share it
-
-## License
-
----
-
-MIT
 
 **Free Software, Hell Yeah!**
 
