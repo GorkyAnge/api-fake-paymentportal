@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "src/app.js"
     }
-  ],
-  "files": [
-    "data/card-transaction.json",
-    "data/phone-transaction.json",
-    "public/receipt.html"
   ]
 }
